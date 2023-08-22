@@ -2,7 +2,7 @@
 
 name: Tell Google to reindex the website
 
-on:
+on:  # yamllint disable-line rule:truthy
   page_build:
 
 jobs:
