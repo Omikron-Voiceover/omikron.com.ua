@@ -30,7 +30,7 @@ jobs:
         build
         --verbose
         --output-path www
-    - uses: actions/upload-pages-artifact@v1
+    - uses: actions/upload-pages-artifact@v2
       with:
         path: www
 
