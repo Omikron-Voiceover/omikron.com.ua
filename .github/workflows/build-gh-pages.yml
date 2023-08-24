@@ -30,7 +30,8 @@ jobs:
         build
         --verbose
         --output-path www
-    - uses: actions/upload-pages-artifact@v2
+    - name: Save the generated HTML output as a GitHub Actions artifact
+      uses: actions/upload-pages-artifact@v2
       with:
         path: www
 
